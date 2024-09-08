@@ -206,42 +206,5 @@ main {
   }
 }
 
-@media only screen and (min-width: 1025px) {
-  .container {
-    max-width: 75rem; /* 1200px */
-  }
-
-  .header-image {
-    width: 15.625rem; /* 250px */
-  }
-
-  nav ul {
-    gap: 2.5rem; /* 40px */
-  }
-
-  .action-buttons {
-    gap: 1.875rem; /* 30px */
-  }
-
-  .action-btn {
-    width: 11.25rem; /* 180px */
-  }
-
-  .accounts {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .account-box {
-    width: calc(33.333% - 1.25rem); /* Subtracting margin */
-    margin-right: 1.25rem; /* 20px */
-  }
-
-  .account-box:last-child {
-    margin-right: 0;
-  }
-}
-
 
 
